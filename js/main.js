@@ -137,6 +137,10 @@ document.addEventListener("click", function(e){
 
 /* CONTACT */
 
+function cambiarimg(imgchange){
+  document.getElementById('cuadrado7').style.backgroundImage = imgchange;
+}
+
 function pintar(col,col1){
   document.getElementById('cuadrado').style.backgroundImage = col;
   document.getElementById('back').style.backgroundImage = col1;
