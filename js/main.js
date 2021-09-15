@@ -146,6 +146,46 @@ function pintar(col,col1){
   document.getElementById('back').style.backgroundImage = col1;
 }
 
+function pintar11(img1){
+  document.getElementById('cuadrado8').style.backgroundImage = img1;
+}
+
+function primero11(estadoac){
+  document.getElementById('num11').style.display = estadoac;
+  document.getElementById('num21').style.display = 'none';
+  document.getElementById('num31').style.display = 'none';
+}
+
+function segundo11(estadoac1){
+  document.getElementById('num11').style.display = 'none';
+  document.getElementById('num31').style.display = 'none';
+  document.getElementById('num21').style.display = estadoac1;
+}
+
+function tercero11(estadoac2){
+  document.getElementById('num11').style.display = 'none';
+  document.getElementById('num21').style.display = 'none';
+  document.getElementById('num31').style.display = estadoac2;
+}
+
+function cambiar11(colorchange){
+  document.getElementById('hexa11').style.fill = colorchange;
+  document.getElementById('hexa22').style.fill = '#FFF';
+  document.getElementById('hexa33').style.fill = '#FFF';
+}
+
+function cambiar12(colorchange1){
+  document.getElementById('hexa22').style.fill = colorchange1;
+  document.getElementById('hexa11').style.fill = '#FFF';
+  document.getElementById('hexa33').style.fill = '#FFF';
+}
+
+function cambiar23(colorchange2){
+  document.getElementById('hexa33').style.fill = colorchange2;
+  document.getElementById('hexa11').style.fill = '#FFF';
+  document.getElementById('hexa22').style.fill = '#FFF';
+}
+
 function primero(estado){
   document.getElementById('num1').style.display = estado;
   document.getElementById('num2').style.display = 'none';
