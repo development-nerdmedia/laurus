@@ -87,6 +87,7 @@
 .iconomenu{
     display: none;
 }
+
 /*navbar*/
 
 .header{
@@ -1391,7 +1392,7 @@ ul > li > span {
 }
 
 .secNosotros .secNosotros1 .titlepega{
-    width: 800px;
+    width: 50%;
 }
 
 /* PAGE PINTURAS */
@@ -2573,6 +2574,7 @@ ul > li > span {
         transform: scale(0.85); 
         position: absolute;
         top: -55px;
+        left: 10px;
     }
 
     .contcontac .img .contenidocont .atras{
@@ -2685,6 +2687,33 @@ ul > li > span {
 }
 
 @media (max-width: 1242px) and (min-width: 1025px) {
+
+    .sechacemos .hacemosflex {
+        justify-content: space-around;
+    }
+
+    .sechacemos .hacemosflex .card1, .sechacemos .hacemosflex .card2, .sechacemos .hacemosflex .card3 {
+        width: 294px;
+        height: 369px;
+        background-size: 294px;
+    }
+    
+    .sechacemos .hacemosflex .cont {
+        top: 215px;
+    }
+    
+    .sechacemos .hacemosflex .cont img:nth-child(1) {
+        width: 51px;
+    }
+    
+    .sechacemos .hacemosflex .cont h2 {
+        font-size: 20px;
+    }
+    
+    .sechacemos .hacemosflex .cont img.puntosqh {
+        width: 250px;
+    }
+
     .secNosotros #cuadrado1{
         transform: scale(0.9);
         position: relative;
@@ -2800,6 +2829,131 @@ ul > li > span {
     }
 }
 
+@media (max-width: 1226px) and (min-width: 1025px) {
+
+    .secindustrias .indcont .tarjeta {
+        height: 255px;
+    }
+    
+    .secindustrias .indcont .tarjeta {
+        width: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        
+    .secindustrias .indcont .tarjeta img.card {
+        width: 190px;
+    }
+    
+    .secindustrias .indcont .tarjeta img.img0 {
+        width: 99px;
+    }
+    
+    .secindustrias .indcont .tarjeta h3 {
+        font-size: 20px;
+        top: 105px;
+    }
+    
+    .secindustrias .indcont .tarjeta a.tyu {
+        top: 85px;
+        left: 170px;
+    }
+    
+    .secindustrias .indcont .tarjeta img.backcard {
+        width: 213px;
+    }
+
+    /*imgenes cuadro blanco*/
+    .secindustrias .indcont .tarjeta img.img1 {
+        width: 86px;
+        left: 55px;
+    }
+    .secindustrias .indcont .tarjeta a.tyu {
+        top: 85px;
+        left: 170px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img2 {
+        width: 65px;
+        left: 65px;
+    }
+
+    .secindustrias .indcont .tarjeta a.tyuu {
+        left: 170px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img3 {
+        width: 36px;
+        left: 75px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img4 {
+        width: 100px;
+        left: 50px;
+    }
+
+    .secindustrias .indcont .tarjeta a.tyuuu {
+        left: 170px;
+        top: 105px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img5 {
+        width: 41px;
+        left: 75px;
+    }
+
+    .secindustrias .indcont .tarjeta a.tyuuuu {
+        top: 62px;
+        left: 170px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img6 {
+        width: 78px;
+        left: 60px;
+        top: 55px;
+    }
+
+    .secindustrias .indcont .tarjeta a.tyuuuu {
+        top: 62px;
+        left: 170px;
+    }
+
+    .secindustrias .indcont .tarjeta img.img7 {
+        width: 60px;
+        left: 65px;
+        top: 50px;
+    }
+
+    .secindustrias .indcont .tarjeta a.tyuuuu {
+        top: 62px;
+        left: 170px;
+    }
+
+    @media (max-width: 1103px) and (min-width: 1067px){
+        .pageindus .container {
+            width: 90%;
+            max-width: 1112px;
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 1066px) {
+        /* .pageindus .container {
+            width: 92%;
+            max-width: 1112px;
+            margin: 0 auto;
+        } */
+
+        .secindustrias .indcont .tarjeta {
+            width: 200px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+            
+
+    }
+}
+
 @media (max-width: 1216px) and (min-width: 1119px) {
     .home .inicio .inicioPart2 #cuadrado {
         transform: scale(0.9);
@@ -2911,6 +3065,19 @@ ul > li > span {
     .home .inicio .inicioPart2 a{
         margin: 0 30px;
     }
+
+    @media (max-width: 1080px) and (min-width: 1025px){
+
+        .container {
+            width: 90%;
+            max-width: 1110px;
+            margin: 0 auto;
+        }
+
+        .sechacemos .hacemosflex {
+            justify-content: space-between;
+        }
+    }    
 }
 
 @media (max-width: 1064px) {
@@ -2938,6 +3105,7 @@ ul > li > span {
     #fs-frm textarea{
         width: 300px;
     } */
+
     
     .seccontactopage .container{
         width: 70%;
@@ -2985,6 +3153,13 @@ ul > li > span {
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+    }
+
+    
+    @media (max-height: 848px) {
+        .info {
+            display: none;
+        }
     }
     
     .info > div{
@@ -3571,7 +3746,6 @@ ul > li > span {
 
 }
 
-
 @media (max-width: 1024px) and (min-width: 834px) {
     .accordion_questions {
         width: auto;
@@ -3579,6 +3753,34 @@ ul > li > span {
 
     .accordion_questions {
         padding-left: 40px;
+    }
+
+    @media (max-width: 1000px) {
+
+        .sechacemos .hacemosflex {
+            justify-content: space-around;
+        }
+
+        .sechacemos .hacemosflex .card1, .sechacemos .hacemosflex .card2, .sechacemos .hacemosflex .card3 {
+            background-size: 236px;
+        }
+        
+        .sechacemos .hacemosflex .card1, .sechacemos .hacemosflex .card2, .sechacemos .hacemosflex .card3 {
+            width: 236px;
+            height: 296px;
+        }
+        
+        .sechacemos .hacemosflex .cont {
+            top: 160px;
+        }
+        
+        .sechacemos .hacemosflex .cont img:nth-child(1) {
+            width: 41px;
+        }
+        
+        .sechacemos .hacemosflex .cont img.puntosqh {
+            width: 190px;
+        }
     }
 }
 
@@ -3609,6 +3811,11 @@ ul > li > span {
     }
 }
 
+@media (max-width: 954px) and (min-width: 834px) {
+    .secindustrias .indcont {
+        justify-content: space-around;
+    }
+}
 
 @media (max-width: 941px) and (min-width: 835px){
     .home .inicio .inicioPart2 #cuadrado {
@@ -3659,8 +3866,6 @@ ul > li > span {
     }
 }
 
-
-
 @media (max-width: 970px) and (min-width: 835px){
     .secnosotros .nosopart1 p{
         width: 265px;
@@ -3678,6 +3883,10 @@ ul > li > span {
 
     .secnosotros .nosopart1 .nosotitle {
         margin-bottom: 20px;
+    }
+
+    .pageindustrias {
+        padding: 50px 0;
     }
 }
 
@@ -3711,6 +3920,20 @@ ul > li > span {
     .secNosotros .secNosotros1 .textarticulo .texts .texto {
         padding-left: 0;
         padding-right: 20px;
+    }   
+
+    .heicont{
+        height: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .info .info-text {
+        box-shadow: 20px 20px 0px 0px rgba(255,17,17,1);
+    }
+
+    .info .backimg {
+        display: none;
     }
 }
 
@@ -3778,7 +4001,12 @@ ul > li > span {
         align-items: center;
         position: relative;
         top: -50px;
+        margin-top: 50px;
     }
+
+
+
+    /*seccion industrias*/
 
     .secindustrias {
         padding: 50px 0;
@@ -4065,6 +4293,49 @@ ul > li > span {
     } 
 }
 
+@media (max-width: 883px) {
+    .pagethanks .container .text p {
+        margin-top: 80px;
+    }
+
+    @media (max-width: 522px) {
+        .pagethanks .container .text p {
+            width: 80%;
+        } 
+
+        .pagethanks .container {
+            flex-direction: column-reverse;
+        }
+
+        .pagethanks .container .ladodere {
+            height: 100px;
+        }
+
+        .pagethanks .container .text h1 {
+            font-family: var(--fuente-archivo-black);
+            font-size: 40px;
+            position: absolute;
+            top: 32px;
+            left: 45px;
+            width: auto;
+        }
+
+        .pagethanks .container .ladodere {
+            height: 100px;
+            position: absolute;
+            top: -50px;
+            right: 30px;
+        }
+
+        .pagethanks .container .text {
+            color: white;
+            position: absolute;
+            width: 90%;
+            top: 250px;
+        }
+    }
+}
+
 @media (max-width: 810px) {
     .parents > div:not(.div1) {
         width: 290px;
@@ -4075,6 +4346,113 @@ ul > li > span {
     .parents > div:not(.div1) {
         width: 260px;
     }
+}
+
+@media (max-width: 736px) and (min-width: 710px){
+    .secindustrias .indcont {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 709px) {
+    .secindustrias .indcont {
+        justify-content: space-around;
+    }
+
+    .tarjmas{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 426px) {
+    .secindustrias .indcont {
+        display: none;
+    }
+
+    .indusmovil .botones .contindus:hover {
+        background-color: var(--color-terceario-yellow);
+    }
+
+    .indusmovil {
+        display: inline-block;
+    }
+    
+    .indusmovil {
+        width: 100%;
+        position: relative;
+    }
+    
+    .indusmovil .botones {
+        width: 95%;
+        box-shadow: 20px 20px 0px 0px rgb(25 107 217);
+    }
+    
+    .indusmovil .botones .contindus {
+        background-color: white;
+    }
+    
+    .contboton {
+        padding: 10px 0;
+    }
+    
+    .contboton {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid var(--color-primario-blue);
+        align-items: center;
+        border-bottom: none;
+    }
+    
+    .contboton img.icono-contindus {
+        width: 30px;
+    }
+    
+    .contboton h3 {
+        width: 210px;
+        font-family: var(--fuente-roboto);
+        color: var(--color-primario-blue);
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .contboton img.imgcurt {
+        width: 30px;
+    }
+
+    .contboton img.imgcuidado {
+        width: 23px;
+        padding-left: 7px;
+    }
+
+    .contboton img.imglimp {
+        width: 15px;
+        padding-left: 10px;
+    }
+
+    
+    .contboton img.imgpega {
+        width: 13px;
+        padding-left: 10px;
+    }
+
+    .contboton img.imgpintura {
+        width: 20px;
+        padding-left: 10px;
+    }
+
+    .contboton img.imgtitnas {
+        width: 15px;
+        padding-left: 10px;
+    }
+
+    .borbot {
+        border: 2px solid var(--color-primario-blue);
+    }
+
+    .fontoindus{
+        display: none;
+    }
+
 }
 
 @media (max-width: 700px){
@@ -4094,6 +4472,32 @@ ul > li > span {
 
     .parents > div:not(.div1) {
         width: 90%;
+    }
+
+    /*boton*/
+    .contactop .btncerrar {
+        width: auto;
+        border: none;
+        box-shadow: none;
+        height: 40px;
+    }
+
+    .contactop .btncerrar a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 2px solid #fff;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        padding: 0 5px;
+    }
+
+    .contactop .btncerrar a h2 {
+        font-size: 20px;
     }
 }
 
@@ -4310,6 +4714,48 @@ ul > li > span {
 }
 
 @media (max-width: 800px) and (min-width: 425px) {
+
+    .sechacemos .hacemosflex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sechacemos .hacemosflex .card {
+        margin-bottom: 30px;
+        width: 432px;
+    }
+    .sechacemos .hacemosflex .card1 {
+        background-image: url(../img/fondoquehacemos.png);
+        background-size: 100%;
+    }
+    
+    .sechacemos .hacemosflex .card1, .sechacemos .hacemosflex .card2, .sechacemos .hacemosflex .card3 {
+        /* width: 60%; */
+        height: 194px;
+    }
+    
+    .sechacemos .hacemosflex .cont {
+        top: 50px;
+    }
+    
+    .sechacemos .hacemosflex .cont img:nth-child(1) {
+        width: 41px;
+    }
+    
+    .sechacemos .hacemosflex .cont img.puntosqh {
+        width: 90%;
+    }
+    
+    .sechacemos .hacemosflex .card2 {
+        background-image: url(../img/fondoquehacemos2.png);
+        background-size: 100%;
+    }
+    
+    .sechacemos .hacemosflex .card3 {
+        background-image: url(../img/fondoquehacemos3.png);
+        background-size: 100%;
+    }
+
     /* .secnosotros .nosopart2 img.noso1{
         width: 360px;
         right: 20px;
@@ -4377,6 +4823,39 @@ ul > li > span {
 @media (max-width: 616px) and (min-width: 425px) {
     .iconomenu > ul {
         display: none;
+    }
+
+    @media (max-width: 600px) {
+        .info {
+            display: none;
+        }
+
+        .seccontacto {
+            padding: 80px 0;
+        }
+
+        .secNosotros .secNosotros1 {
+            width: 100%;
+        }
+
+        .contactop {
+            flex-direction: column-reverse;
+            position: relative;
+        }
+
+        .secNosotros .secNosotros1 .title h1 {
+            width: auto;
+            left: 35px;
+        }
+
+        .contactop .btncerrar {
+            position: relative;
+            top: -40px;
+            width: 110px;
+            height: 35px;
+            float: right;
+            right: -70%;
+        }
     }
 }
 
@@ -4467,6 +4946,13 @@ ul > li > span {
 
     .question_answer_accordion {
         width: 100%;
+    }
+}
+
+@media (max-width: 482px) {
+    .sechacemos .hacemosflex .card {
+        margin-bottom: 30px;
+        width: 380px;
     }
 }
 
@@ -4988,6 +5474,7 @@ ul > li > span {
         position: absolute;
         top: 40px;
         z-index: -1;
+        padding-left: 35px;
     }
 
     .fontoindus img{
@@ -5220,9 +5707,10 @@ ul > li > span {
     .contactop .btncerrar{
         position: relative;
         top: -40px;
-        left: 220px;
         width: 110px;
         height: 35px;
+        float: right;
+        right: -65%;
     }
 
     .form{
@@ -6001,9 +6489,10 @@ ul > li > span {
     .contactop .btncerrar{
         position: relative;
         top: -40px;
-        left: 220px;
         width: 110px;
         height: 35px;
+        float: right;
+        right: -62%;
     }
 
     .form{
