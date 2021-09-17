@@ -3525,7 +3525,20 @@ ul > li > span {
         transform: scale(0.8);
     }
 
+    .secNosotros .secNosotros1 .titleblog{
+        margin-bottom: 50px;
+        width: auto;
+    }
+
     /* BLOG */
+
+    .secNosotros .secNosotros1 .newtitle {
+        margin-bottom: 50px;
+    }
+
+    .parents{
+        margin-top: 50px;
+    }
 
     .parents > div:not(.div1) h2{
         font-size: 20px;
@@ -3548,6 +3561,12 @@ ul > li > span {
         color: var(--color-primario-blue);
         font-family: var(--fuente-roboto);
         font-weight: 800;
+    }
+
+    @media (max-width: 734px) {
+        .parents {
+            margin-top: 0px;
+        }
     }
 
 }
@@ -3639,6 +3658,8 @@ ul > li > span {
         width: 300px;
     }
 }
+
+
 
 @media (max-width: 970px) and (min-width: 835px){
     .secnosotros .nosopart1 p{
@@ -4038,6 +4059,10 @@ ul > li > span {
         left: 15px;
         z-index: -1;
     }
+
+     .index{
+        z-index: -2;
+    } 
 }
 
 @media (max-width: 810px) {
@@ -4085,6 +4110,22 @@ ul > li > span {
     .newbotones a{
         margin-bottom: 50px;
     }
+
+    .newbotones a {
+        margin-bottom: 50px;
+        width: 80%;
+    }
+
+    .newbotones .boton .adelante {
+        width: 90%;
+        -webkit-box-shadow: 36px 20px 0px 0px rgba(25,107,217,1);
+        -moz-box-shadow: 36px 20px 0px 0px rgba(25,107,217,1);
+        box-shadow: 36px 20px 0px 0px rgba(25,107,217,1);
+    }
+
+    .newbotones .boton .atras {
+        display: none;
+    }
 }
 
 @media (max-width: 811px) and (min-width: 779px){
@@ -4114,6 +4155,157 @@ ul > li > span {
 
     footer .secfooter .foopart1 .footext{
         width: 100%;
+    }
+}
+
+@media (max-width: 734px) and (min-width: 426px) {
+
+    .secNosotros .secNosotros1 {
+        width: 100%;
+    } 
+
+    .secNosotros .secNosotros1 .textpagenos {
+        width: 100%;
+    }
+
+    .secNosotros .secNosotros2 {
+        width: 100%;
+    }
+
+    .secNosotros .secNosotros2 .cuadropagenos {
+        display: none;
+    }
+
+    .botonesmovil {
+        display: none;
+    }
+
+    .newcuadrado7 .flexcuadrado7 {
+        display: inline-block;
+        display: flex;
+        width: 100%;
+    }
+
+    .newcuadrado7 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .secNosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .padflexx{
+        flex-direction: row;
+    }
+
+    .w734{
+        width: 50% !important;
+    }
+
+    .secNosotros .secNosotros1 .cont p {
+        padding-left: 20px;
+    }
+
+    .secNosotros .secNosotros1 .contindusinter p {
+        width: 85%;
+    }
+
+    .accordion_questions {
+        padding-left: 20px;
+    }
+
+
+
+    #cuadrado7{
+        background-image: url(../img/imgcuadro7-1.jpg);
+        width: 172px;
+        height: 210px;
+    }
+
+    #botones{
+        width: 170px;
+    }       
+
+    .botonescuadro7{
+        height: 32%;
+        display: flex;
+        align-items: center;
+        border: 2px solid var(--color-primario-blue);
+        border-top: 0;
+        /* justify-content: start; */
+        background-color: white;
+    }
+
+    .botonescuadro7:hover{
+        background-color: var(--color-terceario-yellow);
+    }
+
+    .bordertop{
+        border: 2px solid var(--color-primario-blue);
+    }
+
+    .flexcuadrado7 .botones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newcuadrado7 .flexcuadrado7 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .botonescuadro7 > div{
+        transform: scale(0.8);
+    }
+
+    .botonescuadro7 svg{        
+        transform: rotate(180deg);
+        padding: 0 5px;
+    }
+
+    .botonescuadro7 h3{
+        font-family: var(--fuente-roboto);
+        font-size: 18px;
+        color: var(--color-primario-blue);
+        font-weight: 800;
+    } 
+
+    .fondo-cuadrado7{
+        position: relative;
+        top: -180px;
+        z-index: -2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fondo-cuadrado7 img.fondo{
+        position: relative;
+        top: 0px;
+        left: 0;
+        width: 320px;
+        transform: scale(1);
+        padding-left: 60px;
+    }
+
+    .heicuadro{
+        height: 250px;
+    }
+}
+
+@media (max-width: 724px) and (min-width: 426px) {
+    .secNosotros .secNosotros2 #cuadrado3 img {
+        transform: scale(0.55);
+        top: -60px;
+        left: 70px;
+    }
+
+    .secNosotros .secNosotros2 img.imgbackcor {
+        left: 180px;
+        transform: scale(0.55);
+        top: -25px;
     }
 }
 
@@ -4185,6 +4377,96 @@ ul > li > span {
 @media (max-width: 616px) and (min-width: 425px) {
     .iconomenu > ul {
         display: none;
+    }
+}
+
+@media (max-width: 585px) and (min-width: 425px) {
+    .w375 {
+        display: none;
+    }
+
+    .padflexx {
+        flex-direction: column;
+    }
+
+    .padflexx {
+        padding-top: 50px;
+    }
+
+    .padflexx .secNosotros1 {
+        width: 100%;
+    }
+
+    .padflexx .secNosotros1 .padtitle {
+        padding-bottom: 0px;
+    }
+
+    .padflexx .secNosotros1 .newtitle {
+        margin-bottom: 50px;
+    }
+
+    @media (max-width: 582px) {
+        .padflexx .secNosotros1 .padtitle {
+            padding-bottom: 20px;
+        }
+    }
+
+    .padflexx .secNosotros1 .title h1 {
+        width: auto;
+        left: 35px;
+    }
+
+    .padflexx .secNosotros1 .cont {
+        width: auto;
+    }
+
+    .padflexx .secNosotros1 .cont p {
+        width: auto;
+    }
+
+    .padflexx .secNosotros1 .contindusinter p {
+        height: auto;
+    }
+
+    .padflexx .secNosotros1 .cont p {
+        padding-left: 0;
+    }
+
+    .max375 {
+        display: block;
+        position: relative;
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .max375 img.up {
+        width: 314px;
+        padding-right: 20px;
+    }
+
+    .max375 img.imgbackcor {
+        width: 305px;
+        position: absolute;
+        top: 20px;
+        padding-left: 20px;
+        z-index: -2;
+        /* position: absolute;
+        top: 20px;
+        z-index: -1;
+        left: 30px; */
+    }
+
+    .accordion_questions {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .question_answer_accordion {
+        width: 100%;
     }
 }
 
@@ -4759,11 +5041,16 @@ ul > li > span {
         justify-content: center;
     }
 
+    .secNosotros .secNosotros1 .imgs .frente{
+        padding-right: 20px;
+    }
+
     .secNosotros .secNosotros1 .imgs .fondo {
         position: absolute;
         top: 0;
         top: 25px;
-        right: 5px;
+        /* right: 5px; */
+        padding-left: 40px;
         z-index: -1;
     }
 
@@ -4946,6 +5233,33 @@ ul > li > span {
     #fs-frm [type="text"], #fs-frm [type="email"], #fs-frm [type="number"], #fs-frm textarea{
         width: 100%;
     } 
+
+    .max375 {
+        display: block;
+        position: relative;
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .max375 img.up {
+        width: 314px;
+        padding-right: 20px;
+    }
+
+    .max375 img.imgbackcor {
+        width: 305px;
+        position: absolute;
+        top: 20px;
+        padding-left: 20px;
+        z-index: -2;
+        /* position: absolute;
+        top: 20px;
+        z-index: -1;
+        left: 30px; */
+    }
 }
 
 @media (max-width: 375px) {
@@ -5699,5 +6013,38 @@ ul > li > span {
 
     #fs-frm [type="text"], #fs-frm [type="email"], #fs-frm [type="number"], #fs-frm textarea{
         width: 100%;
-    } 
+    }
+
+    .max375 {
+        display: block;
+        position: relative;
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .max375 img.up {
+        width: 314px;
+        padding-right: 5px;
+    }
+
+    .max375 img.imgbackcor {
+        width: 305px;
+        position: absolute;
+        top: 20px;
+        padding-left: 0px;
+        z-index: -2;
+        /* position: absolute;
+        top: 20px;
+        z-index: -1;
+        left: 30px; */
+    }
+}
+
+@media (max-width: 842px) {
+    .secNosotros .secNosotros1 .consthei p {
+        height: 100%;
+    }
 }
