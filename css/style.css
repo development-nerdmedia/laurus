@@ -1395,6 +1395,10 @@ ul > li > span {
     width: 50%;
 }
 
+.secNosotros .secNosotros1 .titlewidth{
+    width: 200%;
+}
+
 /* PAGE PINTURAS */
 
 .secNosotros .title img.iconpintu{
@@ -3105,7 +3109,6 @@ ul > li > span {
     #fs-frm textarea{
         width: 300px;
     } */
-
     
     .seccontactopage .container{
         width: 70%;
@@ -3624,13 +3627,13 @@ ul > li > span {
     
 
     .secNosotros .title img.icon{
-        left: 350px;
-        top: -5px;
+        left: 300px;
+        top: 0px;
     }
 
     .secNosotros .title img.iconcur{
         left: 280px;
-        top: -10px;
+        top: 0px;
     }
 
     .secNosotros .title img.iconcuiper{
@@ -3640,24 +3643,25 @@ ul > li > span {
     }
 
     .secNosotros .title img.iconlimp{
-        width: 25px;
+        width: 25px !important;
         top: -10px;
         left: 230px;
     }
 
     .secNosotros .title img.iconplas{
         top: 0px;
-        left: 250px;
+        left: 220px;
+        top: 8px;
     }
 
     .secNosotros .title img.iconpega{
-        width: 35px;
+        width: 35px !important;
         top: -25px;
         left: 520px;
     }
 
     .secNosotros .title img.icontinta{
-        width: 40px;
+        width: 40px !important;
         top: -10px;
         left: 450px;
     }
