@@ -4012,17 +4012,20 @@ ul > li > span {
         padding: 50px 0;
     }
 
-    .secnosotros .nosopart2 .mid img.noso1 {
-        width: 460px;
-        top: 110px;
-        left: -10px;
+    @media (max-width: 834px) and (min-width: 426px) {
+        .secnosotros .nosopart2 .mid img.noso1 {
+            width: 460px;
+            top: 110px;
+            left: -10px;
+        }
+    
+        .secnosotros .nosopart2 img.noso2 {
+            width: 440px;
+            top: -110px;
+            right: -20px;
+        }
     }
-
-    .secnosotros .nosopart2 img.noso2 {
-        width: 440px;
-        top: -110px;
-        right: -20px;
-    }
+    
 
     /*FINAL NUEVO*/
 
@@ -4373,6 +4376,10 @@ ul > li > span {
         background-color: var(--color-terceario-yellow);
     }
 
+    .secindustrias500{
+        padding-bottom: 150px;
+    }
+
     .indusmovil {
         display: inline-block;
     }
@@ -4408,7 +4415,7 @@ ul > li > span {
     }
     
     .contboton h3 {
-        width: 210px;
+        width: 70%;
         font-family: var(--fuente-roboto);
         color: var(--color-primario-blue);
         font-size: 18px;
@@ -4800,7 +4807,31 @@ ul > li > span {
 
 }
 
-@media (max-width: 604px) and (min-width: 425px) {
+@media (max-width: 660px) {
+    .home .inicio .inicioPart1 {
+        z-index: 5;
+    }
+
+    .home .inicio .inicioPart2 .fondo .numeros {
+        z-index: 6;
+    }
+
+    .home .inicio .inicioPart1 h1 {
+        font-size: 40px;
+        line-height: 45px;
+        width: 180%;
+    }
+
+    .home .inicio .inicioPart1 p {
+        display: none;
+    }
+
+    .home .inicio .inicioPart1 {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 604px) and (min-width: 426px) {
     footer .secfooter {
         flex-direction: column;
     } 
@@ -4811,6 +4842,38 @@ ul > li > span {
 
     footer .secfooter .foopart1 {
         width: 100%;
+    }
+
+    @media (max-width: 600px) {
+        .secnosotros .nosopart2 .mid img.noso1 {
+            width: 400px;
+            top: 110px;
+            left: -10px;
+        }
+        
+        .secnosotros .nosopart2 img.noso2 {
+            width: 380px;
+            top: -80px;
+            right: -20px;
+        }
+    }
+
+    @media (max-width: 531px) {
+        .secnosotros .nosopart2 .mid img.noso1 {
+            width: 350px;
+            top: 110px;
+            left: -10px;
+        }
+
+        .secnosotros .nosopart2 {
+            margin-top: 0px;
+        }
+        
+        .secnosotros .nosopart2 img.noso2 {
+            width: 330px;
+            top: -50px;
+            right: -20px;
+        }
     }
 }
 
@@ -4949,6 +5012,14 @@ ul > li > span {
     }
 }
 
+@media (max-width: 460px) and (min-width: 426px) {
+    .home .inicio .inicioPart2 #cuadrado {
+        transform: scale(0.6);
+        right: -126px;
+        top: -50px;
+    }
+}
+
 @media (max-width: 482px) {
     .sechacemos .hacemosflex .card {
         margin-bottom: 30px;
@@ -4956,7 +5027,7 @@ ul > li > span {
     }
 }
 
-@media (max-width: 425px) and (min-width: 375px) {
+@media (max-width: 425px) and (min-width: 376px) {
     main {
         padding-top: 90px;
     }
@@ -4980,7 +5051,7 @@ ul > li > span {
     }
 
     .inicioatras #cuadrado8{
-        background-image:url(../img/movilimg1.jpg);
+        background-image:url(../img/home-fondo425-1.jpg);
         background-repeat: no-repeat;
         overflow: hidden;
         width: 100%;        
@@ -5088,9 +5159,9 @@ ul > li > span {
     }
 
     .fondooo #back1{
-        background-image: url(../img/fondobotonesmovil1.png);
+        background-image: url(../img/fondobotonesmovil2.jpg);
         background-repeat: no-repeat;
-        background-size: 318px;
+        background-size: 360px;/*340*/
         width: 100%;
         height: 55px;
         position: absolute;
@@ -5215,9 +5286,9 @@ ul > li > span {
         flex-direction: column;
     }
 
-    .secnosotros .nosopart2 img.noso1{
+    .secnosotros .nosopart2 .mid img.noso1 {
         position: relative;
-        width: 325px;
+        width: 325px !important;
         right: 12px;
     }
 
@@ -5225,10 +5296,11 @@ ul > li > span {
         width: 100%;
     }
 
-    .secnosotros .nosopart2 img.noso2{
+    .secnosotros .nosopart2 img.noso2 {
         position: relative;
         width: 300px;
-        top: -75px;
+        top: -108px;
+        padding-left: 25px;
     }
 
     .newcuadrado7 .flexcuadrado7{
