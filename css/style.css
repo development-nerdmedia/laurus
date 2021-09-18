@@ -550,7 +550,7 @@ h1#num31{
 }*/
 
 .secindustrias{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .secindustrias .indtitle{
@@ -629,25 +629,25 @@ h1#num31{
     left: 205px;
 }
 
-.secindustrias .indcont .tarjeta a.tyu{
+.secindustrias .indcont .tarjeta .tyu{
     position: relative;
     top: 97px;
     left: 200px;
 }
 
-.secindustrias .indcont .tarjeta a.tyuu{
+.secindustrias .indcont .tarjeta .tyuu{
     position: relative;
     top: 65px;
     left: 200px;
 }
 
-.secindustrias .indcont .tarjeta a.tyuuu{
+.secindustrias .indcont .tarjeta .tyuuu{
     position: relative;
     top: 120px;
     left: 200px;
 }
 
-.secindustrias .indcont .tarjeta a.tyuuuu{
+.secindustrias .indcont .tarjeta .tyuuuu{
     position: relative;
     top: 68px;
     left: 200px;
@@ -1568,7 +1568,7 @@ ul > li > span {
         font-weight: 900;
     }
 
-    .parent > div:not(.div1) .boton a{
+    .parent > div:not(.div1) .boton h2{
         font-family: var(--fuente-roboto);
         font-size: 30px;
         color: white;
@@ -1578,7 +1578,7 @@ ul > li > span {
         font-weight: 500;
     }
 
-    .parent > div:not(.div1) .boton a:hover{
+    .parent > div:not(.div1) .boton h2:hover{
         color: var(--color-primario-blue);
     }
     
@@ -1666,7 +1666,7 @@ ul > li > span {
         font-weight: 900;
     }
 
-.parents > div:not(.div1) .boton a{
+.parents > div:not(.div1) .boton h2{
     font-family: var(--fuente-roboto);
     font-size: 30px;
     color: white;
@@ -1677,7 +1677,7 @@ ul > li > span {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.parents > div:not(.div1) .boton a:hover{
+.parents > div:not(.div1) .boton h2:hover{
     color: var(--color-primario-blue);
 }
 
@@ -2382,9 +2382,9 @@ ul > li > span {
     display: none;
 }
 
-
-
-
+.indusmovil .botones a{
+    text-decoration: none;
+}
 
 @media (max-width: 1220px) /*1220*/{
     .iconomenu{
@@ -2467,6 +2467,25 @@ ul > li > span {
     footer .foopart2{
         width: auto;
     }
+
+    .copy .copy02{
+        font-size: 10px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .copy .copy02 img{
+        width: 30px;
+        padding-right: 10px;
+        padding-bottom: 3.3px;
+    } 
+
+    .copy .copy02 img:last-child{
+        width: 60px;
+        padding-left: 10px;
+        position: relative;
+        top: 0.4px;
+    } 
 
     /*PAGE NOSOTROS*/
 
@@ -2858,7 +2877,7 @@ ul > li > span {
         top: 105px;
     }
     
-    .secindustrias .indcont .tarjeta a.tyu {
+    .secindustrias .indcont .tarjeta .tyu {
         top: 85px;
         left: 170px;
     }
@@ -2872,7 +2891,7 @@ ul > li > span {
         width: 86px;
         left: 55px;
     }
-    .secindustrias .indcont .tarjeta a.tyu {
+    .secindustrias .indcont .tarjeta .tyu {
         top: 85px;
         left: 170px;
     }
@@ -2882,7 +2901,7 @@ ul > li > span {
         left: 65px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuu {
+    .secindustrias .indcont .tarjeta .tyuu {
         left: 170px;
     }
 
@@ -2896,7 +2915,7 @@ ul > li > span {
         left: 50px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuu {
+    .secindustrias .indcont .tarjeta .tyuuu {
         left: 170px;
         top: 105px;
     }
@@ -2906,7 +2925,7 @@ ul > li > span {
         left: 75px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuuu {
+    .secindustrias .indcont .tarjeta .tyuuuu {
         top: 62px;
         left: 170px;
     }
@@ -2917,7 +2936,7 @@ ul > li > span {
         top: 55px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuuu {
+    .secindustrias .indcont .tarjeta .tyuuuu {
         top: 62px;
         left: 170px;
     }
@@ -2928,7 +2947,7 @@ ul > li > span {
         top: 50px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuuu {
+    .secindustrias .indcont .tarjeta .tyuuuu {
         top: 62px;
         left: 170px;
     }
@@ -3336,7 +3355,7 @@ ul > li > span {
         top: 105px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyu{
+    .secindustrias .indcont .tarjeta .tyu{
         top: 85px;
         left: 170px;
     }
@@ -3382,7 +3401,7 @@ ul > li > span {
         top: 50px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuu{
+    .secindustrias .indcont .tarjeta .tyuu{
         left: 170px;
     }
 
@@ -3390,12 +3409,12 @@ ul > li > span {
         top: 125px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuu{
+    .secindustrias .indcont .tarjeta .tyuuu{
         left: 170px;
         top: 105px;
     }
 
-    .secindustrias .indcont .tarjeta a.tyuuuu{
+    .secindustrias .indcont .tarjeta .tyuuuu{
         top: 62px;
         left: 170px;
     }
@@ -3727,7 +3746,7 @@ ul > li > span {
         font-size: 18px;
     }
 
-    .parents > div:not(.div1) .boton a{
+    .parents > div:not(.div1) .boton h2{
         font-size: 22px;
     }
 
@@ -4436,7 +4455,7 @@ ul > li > span {
     }
 
     .contboton img.imglimp {
-        width: 15px;
+        width: 12px;
         padding-left: 10px;
     }
 
@@ -5036,6 +5055,8 @@ ul > li > span {
         padding-top: 90px;
     }
 
+    
+
     .secindustrias {
         padding: 0px 0 100px 0;
     }
@@ -5224,21 +5245,30 @@ ul > li > span {
         padding-bottom: 5px;
     }
 
+    .copy .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+
     .copy .copy02{
         font-size: 10px;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
 
 
     .copy .copy02 img{
         width: 30px;
         padding-right: 10px;
+        padding-bottom: 3.3px;
     } 
 
     .copy .copy02 img:last-child{
         width: 60px;
         padding-left: 10px;
+        position: relative;
+        top: 0.4px;
     } 
 
     .ocul{
@@ -6013,7 +6043,6 @@ ul > li > span {
     .copy .flex{
         display: inline-block;
     }
-
     .copy .copy01{
         font-size: 10px;
         padding-bottom: 5px;
@@ -6022,18 +6051,26 @@ ul > li > span {
     .copy .copy02{
         font-size: 10px;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
 
+    .copy .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
 
     .copy .copy02 img{
         width: 30px;
         padding-right: 10px;
+        padding-bottom: 3.3px;
     } 
 
     .copy .copy02 img:last-child{
         width: 60px;
         padding-left: 10px;
+        position: relative;
+        top: 0.4px;
     } 
 
     .ocul{
@@ -6089,6 +6126,7 @@ ul > li > span {
         position: relative;
         width: 325px !important;
         right: 12px;
+        padding-left: 10px;
     }
 
     .secnosotros .nosopart2{
@@ -6098,7 +6136,8 @@ ul > li > span {
     .secnosotros .nosopart2 img.noso2{
         position: relative;
         width: 300px;
-        top: -38px;
+        top: -108px;
+        padding-left: 35px;
     }
 
     .newcuadrado7 .flexcuadrado7{
