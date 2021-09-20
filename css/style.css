@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    cursor: url(../img/cursor.png),auto
 }
 
 body {
@@ -14,7 +13,27 @@ body {
 }
 
 a{
-    cursor: url(../img/cursor.png),auto !important;
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.navigation .fex i img{
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.navigation .fex i{
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.navigation .fexx i img {
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.navigation .fexx i {
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.question  {
+    cursor: url(../img/cursorhover.png),auto !important;
 }
 
 :root{
