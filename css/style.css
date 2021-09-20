@@ -36,6 +36,22 @@ a{
     cursor: url(../img/cursorhover.png),auto !important;
 }
 
+.secNosotros .secNosotros1 .botones .asd .caja {
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.sechacemos .hacemosflex .card{
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+.representaciones .tarjetarepre {
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
+#fs-frm [type="submit"], #fs-frm [type="reset"] {
+    cursor: url(../img/cursorhover.png),auto !important;
+}
+
 :root{
     --fuente-roboto: 'Roboto', sans-serif;
     --fuente-archivo-black: 'Archivo Black', sans-serif;
