@@ -63,6 +63,10 @@ a{
     --color-texto: #676767;
 }
 
+nav a.select{
+    color: #FF1111;
+}
+
 .tarjmas{
     display: none;
 }
